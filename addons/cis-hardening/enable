@@ -397,7 +397,7 @@ def PrintExitMessage(kubebench_installed: bool):
             "kernel.keys.root_maxkeys=1000000"
             "kernel.keys.root_maxbytes=25000000"
     )
-    click.echo("Remember to enable this addon on nodes joining the custer.")
+    click.echo("Remember to enable this addon on nodes joining the cluster.")
     if kubebench_installed:
         click.echo("Inspect the CIS benchmark results with:")
         click.echo()
